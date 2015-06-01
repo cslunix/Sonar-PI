@@ -1,6 +1,6 @@
 CACHE MANIFEST
 CACHE:
-
+## Eisson Manifest ##
 https://code.jquery.com/jquery-2.1.4.min.js
 https://code.angularjs.org/1.3.17/angular.min.js
 https://code.angularjs.org/1.3.17/angular-route.min.js
