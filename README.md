@@ -1,4 +1,4 @@
-Raspberry Sonar 
+#Raspberry Sonar 
 
 Con esta aplicacion podemos ver la informacion emitida por un sensor de distancia, desde una plataforma web usando:
 
@@ -13,5 +13,5 @@ Con esta aplicacion podemos ver la informacion emitida por un sensor de distanci
 
 [Comunidad de software libre de la UNI](http://csluni.org)
 
-Siguenos en facebook en el grupo:
+facebook:
 [CSL-UNI](https://www.facebook.com/groups/csluni/)
