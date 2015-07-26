@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+
+<html manifest="ng.manifest">
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSLUNI</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="img/bat.png" type="image/x-icon" />
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body ng-app="EissonApp" class='transition'>
+	<div class="container" ng-controller='piController'>
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<div class="row">
+				<div class="col-md-12 head">Press start!</div>
+				<div class="col-md-12">
+					<span>
+						<div class="pantalla">{{valor}} <span class='tag'>cm</span></div>
+					</span>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<button ng-disabled='disable_start == true' class='btn btn-success btn-block btn-lg' type='button' ng-click='start()'> <i class="fa fa-play"></i> Start </button>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<button ng-disabled='disable_stop == true' class='btn btn-danger btn-block btn-lg' type='button' ng-click='stop()'> <i class="fa fa-stop"></i> Stop </button>
+				</div>
+			</div>
+
+			<!--
+			<button class='btn btn-primary btn-block btn-lg' type='button' ng-click='toggleLight()'> <i class="fa fa-lightbulb-o"></i> {{btn}}</button>
+		-->
+		</div>
+		<div class="col-md-2"></div>
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+			<img class="img-responsive" ng-src="{{img}}" alt="CSLUNI" />
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://code.angularjs.org/1.3.17/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.3.17/angular-route.min.js"></script>
+	<script src='app.js'></script>
+</body>
+</html>

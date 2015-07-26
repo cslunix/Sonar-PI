@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'digital';
+  font-style: normal;
+  font-weight: 400;
+  src: local('digital'), local('digital'), url(fonts/digital.woff) format('woff');
+}
+
+body{
+	background: #000;
+}
+.container{
+	margin-top: 50px;
+}
+
+.head{
+	font-family: 'Press Start 2P';
+	color: #E7E262;
+	font-size: 3.5vw;
+}
+.transition{
+    transition: all .45s ease-in-out;
+    -moz-transition: all .45s ease-in-out;
+    -webkit-transition: all .45s
+}
+
+.pantalla{
+	background: #1A1A1A url('../img/bg.jpg');
+	background-size: cover;
+	color: #12DF3B;
+	font-family: 'digital', cursive;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	box-shadow: 1px 0 10px #2391DB;
+	font-size: 10vw;
+	margin-bottom: .2em;
+	text-align: center;
+	text-shadow: 1px 1px 5px #000;
+}
+
+.tag{
+	font-size: .5em;
+	color: #C72A2A;
+}
